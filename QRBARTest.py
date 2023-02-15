@@ -6,7 +6,7 @@ from pyzbar.pyzbar import decode
 #img=cv2.imread('1.png')
 
 cap = cv2.VideoCapture(0)
-cap.set(3,640)
+cap.set(3,640)  
 cap.set(4,480)
 
 
@@ -24,3 +24,4 @@ while True:
     
     cv2.imshow('Result',img)
     cv2.waitKey(1)
+    
